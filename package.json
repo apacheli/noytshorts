@@ -1,10 +1,5 @@
 {
-  "name": "watch_only",
-  "version": "1.1.0",
-  "description": "Redirects you to `/watch?v=` from `/shorts`",
-  "main": "main.js",
-  "scripts": {
-    "x:build": "web-ext build --overwrite-dest",
-    "x:lint": "web-ext lint"
-  }
+  "name": "noytshorts",
+  "version": "2.0",
+  "description": "Prefer the original video player instead of shorts."
 }
