@@ -1,15 +1,20 @@
-# YouTube Shorts Redirector
+<p align="center"><img src="assets/example.png"></p>
 
-A Firefox add-on that redirects you from `/shorts/` to `/watch?v=`.
+# No YouTube Shorts
 
-**This extension only works for Firefox users.** Any Chrome support PRs would be
-greatly appreciated!
+<img src="icons/48.png" align="right">
 
-## Installation
+Prefer the original video player instead of shorts.
 
-[See the releases page](https://github.com/apacheli/watch_only/releases) for the
-latest `.xpi` download.
+You will be redirected from `/shorts/` to `/watch?v=`.
+
+> [!NOTE]
+> This extension hasn't been tested on Chrome. I use Firefox.
+
+## Installing
+
+see the releases page on the right.
 
 ## License
 
-[Apache License, Version 2.0](LICENSE)
+[License](LICENSE.txt)

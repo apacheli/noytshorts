@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  color: #eeeff1;
+  background-color: #2d3033;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 2rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.checkbox {
+  display: none;
+}
+
+.switch {
+  background-color: #c0c0c0;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  height: 2rem;
+  width: 4rem;
+  transition: all 0.25s;
+}
+
+.switch::after {
+  background-color: #626a6d;
+  border: 0.125rem solid #c0c0c0;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 2rem;
+  width: 2rem;
+  transition: all 0.25s;
+}
+
+.checkbox:checked + .switch::after {
+  background-color: #2c97d4;
+  left: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.option {
+  align-items: center;
+  border-bottom: 0.125rem solid #ffffff40;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.title-div {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+}
