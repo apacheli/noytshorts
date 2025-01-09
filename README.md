@@ -9,7 +9,11 @@ Prefer the original video player instead of shorts.
 You will be redirected from `/shorts/` to `/watch?v=`.
 
 > [!NOTE]
-> This hasn't been tested on Chrome. I use Firefox.
+> This extension hasn't been tested on Chrome. I use Firefox.
+
+## Installing
+
+see the releases page on the right.
 
 ## License
 
